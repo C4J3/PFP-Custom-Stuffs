@@ -1,0 +1,336 @@
+{
+    "dependencies": "orecore",
+    "populate": {
+        "compressed_copper": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_copper_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 2,
+            "min-height": 11,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_tin": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_tin_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 2,
+            "min-height": 7,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_silver": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_silver_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 2,
+            "min-height": 5,
+            "max-height": 30,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_lead": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_lead_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 2,
+            "min-height": 10,
+            "max-height": 35,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_platinum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_platinum_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "cluster-count": 1,
+            "min-height": 5,
+            "max-height": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_aluminium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_aluminium_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 4,
+            "min-height": 25,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_iridium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_iridium_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 1,
+            "min-height": 5,
+            "max-height": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_coal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_coal_ore",
+                "material": "minecraft:coal_ore",
+                "cluster-size": 17
+            },
+            "cluster-count": 10,
+            "min-height": 0,
+            "max-height": 64,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_iron": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_iron_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 9
+            },
+            "cluster-count": 10,
+            "min-height": 0,
+            "max-height": 32,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_gold": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_gold_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 9
+            },
+            "cluster-count": 10,
+            "min-height": 0,
+            "max-height": 32,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_mesa_gold": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "orecore:compressed_gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 10,
+			"min-height": 32,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"mesa",
+							"mesa_rock",
+							"mesa_clear_rock",
+							"mutated_mesa",
+							"mutated_mesa_rock",
+							"mutated_mesa_clear_rock"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+        "compressed_redstone": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": "orecore:compressed_redstone_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 4,
+            "min-height": 0,
+            "max-height": 16,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_lapis": {
+            "enabled": "true",
+            "distribution": "gaussian",
+            "generator": {
+                "block": "orecore:compressed_lapis_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 1,
+            "center-height": 16,
+			"spread": 16,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "compressed_diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "orecore:compressed_diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+        },
+        "compressed_emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "orecore:compressed_emerald_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 1,
+				"max": 3
+			},
+			"min-height": 4,
+			"max-height": 28,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+    }
+}
