@@ -16,8 +16,7 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot:3>, <
 mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:5>, <minecraft:sand>, 2000);#
 mods.thermalexpansion.Pulverizer.addRecipe(<railcraft:firestone_raw>, <railcraft:ore_magic>, 2000, <minecraft:netherrack>, 15);
 mods.thermalexpansion.Pulverizer.removeRecipe(<bigreactors:ingotgraphite>);
-mods.thermalexpansion.Pulverizer.addRecipe(<bigreactors:dustgraphite>, <bigreactors:ingotgraphite> 1800)
-//mods.thermalexpansion.Pulverizer.addRecipe
+mods.thermalexpansion.Pulverizer.addRecipe(<bigreactors:dustgraphite>, <bigreactors:ingotgraphite> 1800);
 
 //mekansim
 
