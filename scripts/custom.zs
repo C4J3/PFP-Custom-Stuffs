@@ -35,8 +35,10 @@ mods.mekanism.smelter.addRecipe(<ore:coal>, <bigreactors:ingotgraphite>);
 mods.mekanism.smelter.addRecipe(<ore:dustGraphite>, <bigreactors:ingotgraphite>);
 
 //Crusher
-mods.mekanism.smelter.removeRecipe(<nuclearcraft:gem:6>);
-mods.mekanism.smelter.addRecipe(<ore:sand>, <enderio:item_material:5>);
+mods.mekanism.crusher.removeRecipe(<nuclearcraft:gem:6>);
+mods.mekanism.crusher.removeRecipe(<mekanism:otherdust:1>);
+mods.mekanism.crusher.addRecipe(<ore:sand>, <enderio:item_material:5>);
+mods.mekanism.crusher.addRecipe(<ore:ingotSteel>, <thermalfoundation:material:96>);
 
 //Immersive Engineering
 
