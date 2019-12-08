@@ -35,10 +35,26 @@ mods.mekanism.smelter.addRecipe(<ore:coal>, <bigreactors:ingotgraphite>);
 mods.mekanism.smelter.addRecipe(<ore:dustGraphite>, <bigreactors:ingotgraphite>);
 
 //Crusher
+val tfIngotDef = <thermalfoundation:material>.definition;
+
 mods.mekanism.crusher.removeRecipe(<nuclearcraft:gem:6>);
-mods.mekanism.crusher.removeRecipe(<mekanism:otherdust:1>);
+mods.mekanism.crusher.removeRecipe(<mekanism:otherdust:*>);
+mods.mekanism.crusher.removeRecipe(<mekanism:dust:*>);
+mods.mekanism.crusher.addRecipe(<ore:ingotGold>, <thermalfoundation:material:1>);
+for i in 128 to 136{
+    mods.mekanism.crusher.addRecipe(tfIngotDef.makeStack(i), tfIngotDef.makeStack(i - 64));
+    }
+mods.mekanism.crusher.addRecipe(<ore:ingotIron>, <thermalfoundation:material:0>);
+mods.mekanism.crusher.addRecipe(<ore:ingotGold>, <thermalfoundation:material:1>);
 mods.mekanism.crusher.addRecipe(<ore:sand>, <enderio:item_material:5>);
 mods.mekanism.crusher.addRecipe(<ore:ingotSteel>, <thermalfoundation:material:96>);
+mods.mekanism.crusher.addRecipe(<enderio:item_alloy_ingot:7>, <enderio:item_material:74>);
+mods.mekanism.crusher.addRecipe(<bigreactors:ingotludicrite>, <bigreactors:dustludicrite>);
+mods.mekanism.crusher.addRecipe(<ore:ingotThorium>, <immersive_energy:metal:2>);
+mods.mekanism.crusher.addRecipe(<ore:ingotTungsten>, <immersive_energy:metal:3>);
+mods.mekanism.crusher.addRecipe(<ore:ingotManganeseDioxide>, <nuclearcraft:dust_oxide:3>);
+mods.mekanism.crusher.addRecipe(<ore:ingotManganeseOxide>, <nuclearcraft:dust_oxide:2>);
+mods.mekanism.crusher.addRecipe(<ore:ingotManganese>, <nuclearcraft:dust:11>);
 
 //Immersive Engineering
 
